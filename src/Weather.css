@@ -28,9 +28,9 @@
   list-style: none;
 }
 
-.Weather img {
-  width: 64px;
-  height: 64px;
+.Weather canvas {
+  display: inline-block;
+  margin-top: 5px;
 }
 
 .Weather .temperature {
@@ -40,6 +40,7 @@
   color: rgb(33, 33, 33);
   line-height: 64px;
   margin: 10px 0;
+  margin-left: 10px;
 }
 
 .Weather .unit {
