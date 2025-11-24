@@ -52,3 +52,7 @@
   margin-left: 0px;
   line-height: 1;
 }
+
+.Weather .unit a {
+  text-decoration: none;
+}
